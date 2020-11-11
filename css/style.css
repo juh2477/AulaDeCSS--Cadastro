@@ -1,0 +1,89 @@
+@font-face{
+    font-family: leisha;
+    src: url("../src/leisha/Leisha.ttf");
+}
+
+body{
+    padding: 0%;
+    margin: 0%;
+    justify-content: center;
+}
+
+.nav{
+    text-align: center;
+    margin: auto;
+    padding: 0%;
+    font-family: leisha;
+    font-size: 30px;
+    width: 350px;
+}
+
+.hr1 {
+    border: 0;
+    height: 2px;
+    background-image: linear-gradient(to right, transparent, #CCC, transparent);  
+}
+
+.fas{
+    padding-right: 20px;
+    color: rgb(211, 159, 63);
+}
+
+.container{
+    font-family: 'Courier New';
+    background-color: rgb(255, 192, 74);
+    font-style: bold;
+    width: 350px;
+    margin: auto;
+    border-radius: 5px;
+}
+
+.form-group{
+    text-decoration: overline;
+    text-align: center;
+    text-decoration-color: rgb(160, 131, 3);
+    font-size: 25px;
+    font-style: bold;
+}
+
+.hr2{
+    border: 0;
+    height: 2px;
+    background-color: rgb(160, 131, 3);    
+}
+
+label{
+    padding-left: 10%;
+    color: rgb(255, 255, 255);
+}
+
+.form-control{
+    text-align: start;
+    width: 80%;
+    margin-top: 15px;
+    margin-bottom: 15px;
+    margin-left: 10%;
+    color: rgb(122, 109, 49);
+    border: 1px solid #ccc;
+    border-bottom: 2px solid rgb(160, 131, 3);
+    outline: none;
+}
+
+.form-control:hover{
+    background-color: #CCC;
+}
+
+.btn{
+    text-align: center;
+    margin-left: 15%;
+    margin-bottom: 5%;
+    font-family: 'Courier New';
+    background-color: rgb(255, 192, 74);
+    border-radius: 5px;
+    border-color: rgb(255, 192, 74);
+    font-size: 20px;
+}
+
+.btn:hover{
+    border-color: rgb(122, 109, 49);
+}
